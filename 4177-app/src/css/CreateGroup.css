@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    margin-top: 1rem;
+    width: 200px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    border-radius: 0; /* Make the button square */
+    font-weight: bold; /* Make the text bold */
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding-top: 1rem;
+    }
+}

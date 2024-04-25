@@ -1,0 +1,82 @@
+
+.activitiesPage-background {
+    background-image: url('../img/vintage-pink-telephone-composition.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* creaet activity btn */
+
+.ca-btn-background{
+    padding: 2rem;
+    float: right;
+}
+
+
+
+.create-activity-btn {
+    top: 1rem;
+    right: 1rem;
+    background-color: #28a745;
+    color: white;
+    width: 150px;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.create-activity-btn svg {
+    margin-right: 0.4rem;
+    font-size: 1.2rem;
+}
+
+.create-activity-btn:hover {
+    background-color: #218838;
+}
+
+@media screen and (max-width: 768px) {
+    .activity-card {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .create-activity-btn {
+        bottom: 1rem;
+        top: auto;
+        right: 1rem;
+    }
+
+    .activities-container {
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .activities-container {
+        padding-top: 1rem;
+    }
+}
+
+
+
+
+
+

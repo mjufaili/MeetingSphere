@@ -1,0 +1,93 @@
+/* Landing.css */
+.landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+    margin-left:50px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.image-content {
+    flex: 1;
+
+    padding-left: 50px;
+}
+
+
+.image-content img {
+    width: 100%;
+    max-width: 540px;
+    height: auto;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #3949AB;
+}
+/* Responsive styles for max-width: 768px */
+@media (max-width: 768px) {
+    .landing {
+        flex-direction: column;
+        padding: 30px;
+        margin-left: 0;
+    }
+
+    .content {
+        flex-direction: column;
+        padding-right: 15px;
+    }
+
+    .text-content,
+    .image-content {
+        flex: none;
+        padding-left: 0;
+    }
+
+    .image-content img {
+        max-width: 100%;
+    }
+}
+
+/* Responsive styles for max-width: 480px */
+@media (max-width: 480px) {
+    .landing {
+        padding: 20px;
+    }
+
+    .content {
+        flex-direction: column-reverse;
+        padding-right: 10px;
+    }
+
+    .button {
+        width: 100%;
+        padding: 15px 0;
+    }
+}
+
+
+
+

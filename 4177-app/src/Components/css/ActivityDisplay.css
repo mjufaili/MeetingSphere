@@ -1,0 +1,121 @@
+.activitiesContainer {
+    margin: 0 auto;
+    margin-top: 30px; 
+    padding: 0 15px;
+    max-width: 1200px;
+}
+
+.dayGroup {
+    margin-bottom: 40px;
+}
+
+.activitiesByDate {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+/* control how many cards in a row, now 4 cards */
+.activityCol {
+    padding: 15px;
+    flex: 0 0 22%;
+    max-width: 22%;
+}
+
+/* card buttons */
+.cardButtons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.editButton, .deleteButton {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.editButton {
+    background-color: #007bff;
+    color: white;
+}
+
+.deleteButton {
+    background-color: #dc3545;
+    color: white;
+}
+
+.activityCard {
+    position: relative; 
+    
+}
+
+
+@media (max-width: 992px) {
+    .activityCol {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .activityCol {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.activityCard {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+}
+
+.activityCardBody {
+    padding: 20px;
+}
+
+.activityCardTitle {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.activityCardText {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.activityListGroup {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #ddd;
+}
+
+.activityListGroupItem {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.activityListGroupItem:last-child {
+    border-bottom: none;
+}
+
+.activityLink {
+    color: #0070f8;
+    text-decoration: none;
+}
+
+.activityLink:hover {
+    color: #0056b3;
+}

@@ -1,0 +1,92 @@
+.GroupsPage { /* Changed class name */
+    align-items: center;
+    padding: 0.5rem 2rem;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.groups-container { /* Changed class name */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.group-card { /* Changed class name */
+    width: 18rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+.group-card:hover { /* Changed class name */
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 1rem;
+    position: relative;
+}
+
+.card-title {
+    color: #333;
+    font-size: 1.25rem;
+}
+
+.card-subtitle {
+    color: #666;
+}
+
+/* Styles for Create Group button */
+.cg-btn-background { /* Changed class name */
+    padding: 2rem;
+    float: right;
+}
+
+.create-group-btn { /* Changed class name */
+    top: 1rem;
+    right: 1rem;
+    background-color: #28a745;
+    color: white;
+    width: 150px;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.create-group-btn svg { /* Changed class name */
+    margin-right: 0.4rem;
+    font-size: 1.2rem;
+}
+
+.create-group-btn:hover { /* Changed class name */
+    background-color: #218838;
+}
+
+@media screen and (max-width: 768px) {
+    .group-card { /* Changed class name */
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .create-group-btn { /* Changed class name */
+        bottom: 1rem;
+        top: auto;
+        right: 1rem;
+    }
+
+    .groups-container { /* Changed class name */
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .groups-container { /* Changed class name */
+        padding-top: 1rem;
+    }
+}

@@ -1,0 +1,91 @@
+.signUpContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    background-image: url('../img/Sigin_login_background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.signUpFormContainer {
+    width: 30%;
+    min-width: 300px;
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.signUpTitle {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: black;
+    text-align: left;
+}
+
+.titleSeparator {
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.signUpInput {
+    width: calc(100% - 20px);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #add8e6;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #d3d3d3;
+    color: black;
+}
+
+.signUpButton {
+    width: calc(100% - 20px);
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.signUpButton:hover {
+    background-color: #87cefa;
+}
+
+.signInPrompt {
+    margin-top: 20px;
+}
+
+.loginLink {
+    color:#4169E1;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.loginLink:hover {
+    color: #4169E1;
+}
+.errorMessage {
+    color: #f31f1f; 
+    font-size: 0.8em; 
+    height: 20px; 
+    text-align: left; 
+    width: 100%; /* Full width */
+    margin-top: -10px; 
+    margin-bottom: 10px;
+}
+.inputError {
+    border: 1px solid #f31f1f;
+}

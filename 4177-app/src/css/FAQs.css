@@ -1,0 +1,63 @@
+
+/* Base styles for .content - adjusted for flex column layout */
+.faq-background {
+    background-image: url('../img/faq-and-complaints-banner.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.faq-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+    box-sizing: border-box; /* This ensures padding is included in the width */
+}
+
+
+
+/* Responsive styles for .faqs section */
+.faqs {
+    padding: 20px;
+}
+
+
+.faqs .faq {
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+/* Media queries for responsive adjustments */
+@media (max-width: 768px) {
+    /* Adjustments for when the screen is 768px wide or less */
+    .content {
+        padding: 15px; 
+    }
+
+    .footer {
+        padding: 10px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .faqs .faq {
+        padding: 5px; /* Reduce padding to fit small screens */
+    }
+}
+

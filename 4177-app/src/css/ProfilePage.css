@@ -1,0 +1,103 @@
+/* Author: Kaiyang Hu*/
+/* B number: B00871238*/
+
+
+/* ProfilePage.css */
+.profile-page {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture-section,
+.profile-form {
+    padding: 20px;
+    width: 50%;
+}
+
+.profile-picture-section {
+    border-right: 1px solid #eee;
+    text-align: center;
+}
+
+.image-container {
+    margin-bottom: 15px;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #f3f3f3;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.profile-picture-section p {
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.btn-upload {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.profile-form h2,
+.profile-picture-section h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profile-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.profile-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.btn-save {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 0.9em;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .profile-page {
+        flex-direction: column;
+    }
+
+    .profile-picture-section,
+    .profile-form {
+        width: 100%;
+    }
+
+    .profile-picture-section {
+        border-right: none;
+        border-bottom: 1px solid #eee;
+    }
+}
+
+
+

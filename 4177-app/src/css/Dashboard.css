@@ -1,0 +1,22 @@
+/*
+    Lingxi Dai - B00859041
+*/
+
+/* use the same format as contact page.
+backgroud img should be changed */
+.dashboard-background {
+    background-image: url('../img/vintage-pink-telephone-composition.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.search-filter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
